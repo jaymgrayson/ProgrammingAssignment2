@@ -14,7 +14,7 @@ makeCacheMatrix <- function(x = matrix()) {
              setmatrix = setmatrix,
              getmatrix = getmatrix)
 }
-cacheSolve <- function(x, ...) { #This creates a cacheSolve function that 
+cacheSolve <- function(x, ...) { ##This creates a cacheSolve function that 
         ##computes the inverse of the special "matrix" returned by 
         ##makeCacheMatrix above. 
         #If the inverse has already been calculated (and the matrix has not 
